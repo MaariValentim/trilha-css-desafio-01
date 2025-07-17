@@ -1,0 +1,378 @@
+/* Fontes: */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #000;
+  font-family: 'Raleway', sans-serif;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1440px;
+  min-height: 400px;
+  height: 605px;
+  border-bottom: 1px solid #33a8db;
+  background-image: url("./images/banner.png"),
+    linear-gradient(0deg, rgba(4, 4, 4, 1) 0%, rgb(16, 39, 53) 50%, rgba(4, 4, 4, 1) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content {
+  width: 100%;
+  max-width: 510px;
+  min-height: 200px;
+  height: 393px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 268px;
+  width: 268px;
+  border: 16px solid #061216c5;
+  border-radius: 50%;
+  padding: 16px 8px;
+  background-color: #061216c5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#33A8DB, #1472B7);
+}
+
+.banner-content p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  width: 100%;
+  max-width: 510px;
+  color: #fff;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.banner-content button {
+  width: 100%;
+  max-width: 330px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px 8px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#33a8db, #1472B7);
+  border: 2px solid #1472B7;
+  border-image: linear-gradient(#33a8db, #1472B7);
+  border-image-slice: 1;
+  cursor: pointer;
+}
+
+#course-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 792px;
+  min-height: 200px;
+  height: 325px;
+  padding: 16px 8px;
+  background-color: #000;
+  margin: auto;
+}
+
+#course-content h2 {
+  margin-top: 150px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(#33a8db, #1472B7);
+  letter-spacing: 0.3rem;
+}
+
+#course-content p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.module {
+  background-color: #252525;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 24px auto;
+  width: 100%;
+  max-width: 550px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #33A8DB;
+  border-radius: 57px;
+}
+
+.module > span {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #33a8db;
+}
+
+#transform-world p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+  width: 100%;
+  max-width: 244px;
+  height: 141px;
+  margin-top: 200px;
+  padding-left: 180px;
+  text-shadow: #33A8DB 0px 2.5px;
+  text-transform: lowercase;
+}
+
+#transform-world {
+  width: 100vw;
+  min-height: 300px;
+  height: 500px;
+  margin-top: 150px;
+  background-image: url(images/woman-code.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+#professional-challenges > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  width: 100%;
+  max-width: 746px;
+  height: 76px;
+  margin: auto;
+  padding-top: 50px;
+  color: #33A8DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#professional-challenges > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 32px;
+  width: 100%;
+  max-width: 659px;
+  height: auto;
+}
+
+#professional-challenges > p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  width: 100%;
+  max-width: 792px;
+  height: 76px;
+  margin: auto;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  max-width: 1440px;
+  background-image: linear-gradient(rgba(4, 4, 4, 1) 0%, rgba(16, 39, 53, 0.678) 70%);
+}
+
+footer .dio-logo {
+  margin: auto;
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p {
+  color: #fff;
+  margin: auto;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  padding: 0 5px;
+  font-weight: bold;
+  color: #33A8DB;
+  text-decoration: none;
+}
+
+/* Responsividade para telas até 1024px (tablets) */
+@media (max-width: 1024px) {
+  .banner {
+    height: 400px;
+    min-height: 250px;
+    padding: 24px 0;
+  }
+  .banner-content {
+    height: auto;
+    min-height: 150px;
+    padding: 0 16px;
+  }
+  .logo {
+    max-width:100%;
+    height: 180px;
+    padding: 8px 4px;
+  }
+  #transform-world {
+    height: 300px;
+    min-height: 180px;
+    margin-top: 80px;
+    background-attachment: scroll; /* Melhora performance em mobile */
+  }
+  #transform-world p {
+    font-size: 1.2rem;
+    padding-left: 24px;
+    margin-top: 40px;
+    max-width: 180px;
+    height: auto;
+  }
+  #course-content h2 {
+    margin-top: 60px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Responsividade para telas até 600px (celulares) */
+@media (max-width: 600px) {
+  .banner {
+    height: auto;
+    min-height: 180px;
+    padding: 16px 0;
+  }
+  .banner-content {
+    max-width: 95vw;
+    padding: 0 8px;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    padding: 4px 2px;
+  }
+  h1 {
+    margin-top: 45px;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  .banner-content p {
+    font-size: 1rem;
+    text-align: left;
+  }
+  .banner-content button {
+    max-width: 90vw;
+    font-size: 0.9rem;
+    padding: 10px 4px;
+  }
+  #course-content {
+    max-width: 98vw;
+    height: auto;
+    padding: 8px 2px;
+  }
+  #course-content h2 {
+    margin-top: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+  }
+  .module {
+    max-width: 95vw;
+    font-size: 0.9rem;
+    height: auto;
+    padding: 8px 0;
+  }
+  #transform-world {
+    height: 180px;
+    min-height: 100px;
+    margin-top: 40px;
+    background-size: cover;
+  }
+  #transform-world p {
+    font-size: 0.9rem;
+    padding-left: 8px;
+    margin-top: 16px;
+    max-width: 120px;
+  }
+  #professional-challenges > h2,
+  #professional-challenges > p {
+    font-size: 0.8rem;
+    padding-top: 16px;
+    max-width: 95vw;
+  }
+  #professional-challenges > img {
+    max-width: 95vw;
+    padding-top: 8px;
+  }
+  footer {
+    margin-top: 10px;
+    max-width: 100vw;
+    padding: 8px 0;
+  }
+}
+
+/*------*/
+/*------*/
